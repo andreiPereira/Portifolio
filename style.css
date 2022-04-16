@@ -63,9 +63,20 @@ nav ul li a:hover{
     color: #2fcde9;
 }
 
+.typing{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.typing h1{
+    font-size: 70px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
 .info{
     margin-left: 8%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .info h1{

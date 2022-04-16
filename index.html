@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="fundo">
+
         <nav>
             <img src="images/logo.png" class="logo">
             <ul>
@@ -22,25 +23,39 @@
             </ul>
             <img src="images/moon.png" id="icon">
         </nav>
+
         <div class="info">
             <h1>I'm <span>Andrei</span> Pereira</h1>
             <p>This is my official Portifolio website to showcase my all works related to 
                 web <br>development and UI design</p>
-            <a href="">Send Message</a>
+            <a href="https://github.com/andreiPereira">Go to my GitHUB</a>
         </div>
+
         <div class="img-box" >
             <img src="images/pattern.png" class="back-img">
-            <img src="images/me.png" class="main-img">
-            
+            <img src="images/me.png" class="main-img">        
         </div>
+
+        <div class="typing">
+            <h1>I use <span class="auto-type"></span></h1>
+        </div>
+
         <div class="social-links">
             <a href=""><i class="fa-brands fa-linkedin"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href="https://github.com/andreiPereira"><i class="fa-brands fa-github"></i></a>
         </div>
-    </div>
 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
+
+        var typed = new Typed(".auto-type", {
+            strings: ["Vue.js", "PHP", "SQL", "JS", "HTML"],
+            typeSpeed: 200,
+            backSpeed: 200,
+            loop: true
+        })
 
         var icon = document.getElementById("icon");
         icon.onclick = function (){
@@ -50,9 +65,8 @@
             }else{
                 icon.src="images/moon.png";
 
-            }
+            }s
         }
-
     </script>
 </body>
 </html> 
