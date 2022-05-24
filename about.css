@@ -4,11 +4,8 @@
 }
 
 :root{
-    
     --primary-color: #edf2fc;
     --secondary-color: #212121;
-    
-    
 }
 
 .dark-theme{
@@ -26,10 +23,12 @@ nav ul {
     text-align: right;
 }
 
-.fundo{
-    height: 100vh;
+body{
     width: 100%;
     background: var(--primary-color);
+}
+
+.fundo{
     font-family: sans-serif;
     position: relative;
 }
@@ -75,8 +74,10 @@ nav ul li a:hover{
 }
 
 .info{
-    margin-left: 8%;
-    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
 }
 
 .info h1{
@@ -89,7 +90,7 @@ span{
     color: #2fcde9;
 }
 
-.info p{
+.p-info{
     color: var(--secondary-color) ;
     line-height: 22px;
     font-weight: 22px;
@@ -143,13 +144,4 @@ span{
 
 .social-links a:hover{
     color: #2fcde9;
-}
-
-.about-body{
-    margin-left: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: red;
-    width: 1600px;
 }
